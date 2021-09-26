@@ -56,7 +56,6 @@ EOF
     git init
     git remote add origin "$repo"
     git fetch origin
-    git reset --mixed "$SOURCE_VERSION"
     git lfs install
     git lfs pull
     rm -rf .git
