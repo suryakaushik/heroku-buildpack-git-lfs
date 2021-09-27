@@ -57,6 +57,7 @@ EOF
     git remote add origin "$repo"
     git fetch origin
     git lfs install
+    git lfs pull
     rm -rf .git
 
 ) | indent
