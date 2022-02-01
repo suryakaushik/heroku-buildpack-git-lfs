@@ -50,7 +50,6 @@ echo "-----> Download Git LFS assets"
           > /app/.ssh/config
 
     git version
-    git lfs version
 
     git init
     git remote add origin "$repo"
